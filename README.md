@@ -7,12 +7,10 @@ This project is centered around automating security operations center (SOC) work
 - **Shuffle SOAR** – Security orchestration, automation, and response (SOAR) platform.
 - **TheHive** – Case management for incident tracking.
 - **Wazuh** – SIEM platform for log analysis and event detection.
-- **Python** – Custom automation scripts for threat mitigation.
 
 ## Features
 - Automated incident triage and alert escalation using **Shuffle SOAR**.
 - Integrated **Wazuh** alerts with **TheHive** for centralized case management.
-- Scripting and automation of threat mitigation actions based on detected events.
 - Streamlined incident response process for faster remediation.
 
 ## Project Walkthrough
@@ -20,7 +18,6 @@ This project is centered around automating security operations center (SOC) work
    - Configured **Shuffle SOAR** for automation workflows, connecting it with **Wazuh** and **TheHive**.
    - Created automated playbooks for handling common incidents (e.g., malware alerts, unauthorized access).
 2. **Automation**:
-   - Built Python scripts for threat mitigation (e.g., blocking suspicious IPs, terminating processes).
    - Integrated **Wazuh** alerts with **Shuffle SOAR** to trigger automation when a new security event is detected.
 3. **Case Management**:
    - Integrated **TheHive** with the automation workflow to manage incidents from detection to resolution.
@@ -30,6 +27,3 @@ This project is centered around automating security operations center (SOC) work
 
 ## Conclusion
 This project demonstrates the power of **SOAR** in automating the SOC workflow. By automating repetitive tasks, it significantly improves incident response times and reduces manual effort, allowing security teams to focus on high-priority threats.
-
-## How to Run
-
